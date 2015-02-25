@@ -1,6 +1,6 @@
 ##############################################################
 
-avrpi8.name=AVRPI328 ATmega328p @ 8MHz
+avrpi8.name=AVRPi-328 ATmega328p @ 8MHz
 
 avrpi8.upload.using=linuxgpio
 avrpi8.upload.protocol=linuxgpio
@@ -23,7 +23,7 @@ avrpi8.build.variant=standard
 
 ##############################################################
 
-avrpi12.name=AVRPI328 ATmega328p @ 12MHz
+avrpi12.name=AVRPi-328 ATmega328p @ 12MHz
 
 avrpi12.upload.using=linuxgpio
 avrpi12.upload.protocol=linuxgpio
@@ -46,7 +46,7 @@ avrpi12.build.variant=standard
 
 ##############################################################
 
-avrpi16.name=AVRPI328 ATmega328p @ 16MHz
+avrpi16.name=AVRPi-328 ATmega328p @ 16MHz
 
 avrpi16.upload.using=linuxgpio
 avrpi16.upload.protocol=linuxgpio
@@ -69,7 +69,7 @@ avrpi16.build.variant=standard
 
 ##############################################################
 
-avrpi32u4.name=AVRPI32U4 ATmega32U4 @ 8MHz
+avrpi32u4.name=AVRPi-32U4 ATmega32U4 @ 8MHz
 
 avrpi32u4.upload.using=linuxgpio
 avrpi32u4.upload.protocol=linuxgpio
