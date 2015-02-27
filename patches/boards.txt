@@ -1,96 +1,96 @@
 ##############################################################
 
-avrpi8.name=AVRPi-328 ATmega328p @ 8MHz
+avrpi328_8.name=AVRPi-328 ATmega328p @ 8MHz
 
-avrpi8.upload.using=linuxgpio
-avrpi8.upload.protocol=linuxgpio
-avrpi8.upload.maximum_size=32768
-avrpi8.upload.speed=57600
-avrpi8.upload.disable_flushing=true
+avrpi328_8.upload.using=linuxgpio
+avrpi328_8.upload.protocol=linuxgpio
+avrpi328_8.upload.maximum_size=32768
+avrpi328_8.upload.speed=57600
+avrpi328_8.upload.disable_flushing=true
 
-avrpi8.bootloader.low_fuses=0xE7
-avrpi8.bootloader.high_fuses=0xDA
-avrpi8.bootloader.extended_fuses=0x07
-avrpi8.bootloader.path=atmega
-avrpi8.bootloader.file=ATmegaBOOT_168_atmega328.hex
-avrpi8.bootloader.unlock_bits=0x3F
-avrpi8.bootloader.lock_bits=0x0F
+avrpi328_8.bootloader.low_fuses=0xE7
+avrpi328_8.bootloader.high_fuses=0xDA
+avrpi328_8.bootloader.extended_fuses=0x07
+avrpi328_8.bootloader.path=atmega
+avrpi328_8.bootloader.file=ATmegaBOOT_168_atmega328.hex
+avrpi328_8.bootloader.unlock_bits=0x3F
+avrpi328_8.bootloader.lock_bits=0x0F
 
-avrpi8.build.mcu=atmega328p
-avrpi8.build.f_cpu=8000000L
-avrpi8.build.core=arduino
-avrpi8.build.variant=standard
-
-##############################################################
-
-avrpi12.name=AVRPi-328 ATmega328p @ 12MHz
-
-avrpi12.upload.using=linuxgpio
-avrpi12.upload.protocol=linuxgpio
-avrpi12.upload.maximum_size=32768
-avrpi12.upload.speed=57600
-avrpi12.upload.disable_flushing=true
-
-avrpi12.bootloader.low_fuses=0xE7
-avrpi12.bootloader.high_fuses=0xDA
-avrpi12.bootloader.extended_fuses=0x07
-avrpi12.bootloader.path=atmega
-avrpi12.bootloader.file=ATmegaBOOT_168_atmega328.hex
-avrpi12.bootloader.unlock_bits=0x3F
-avrpi12.bootloader.lock_bits=0x0F
-
-avrpi12.build.mcu=atmega328p
-avrpi12.build.f_cpu=12000000L
-avrpi12.build.core=arduino
-avrpi12.build.variant=standard
+avrpi328_8.build.mcu=atmega328p
+avrpi328_8.build.f_cpu=8000000L
+avrpi328_8.build.core=arduino
+avrpi328_8.build.variant=standard
 
 ##############################################################
 
-avrpi16.name=AVRPi-328 ATmega328p @ 16MHz
+avrpi328_12.name=AVRPi-328 ATmega328p @ 12MHz
 
-avrpi16.upload.using=linuxgpio
-avrpi16.upload.protocol=linuxgpio
-avrpi16.upload.maximum_size=32768
-avrpi16.upload.speed=57600
-avrpi16.upload.disable_flushing=true
+avrpi328_12.upload.using=linuxgpio
+avrpi328_12.upload.protocol=linuxgpio
+avrpi328_12.upload.maximum_size=32768
+avrpi328_12.upload.speed=57600
+avrpi328_12.upload.disable_flushing=true
 
-avrpi16.bootloader.low_fuses=0xE7
-avrpi16.bootloader.high_fuses=0xDA
-avrpi16.bootloader.extended_fuses=0x07
-avrpi16.bootloader.path=atmega
-avrpi16.bootloader.file=ATmegaBOOT_168_atmega328.hex
-avrpi16.bootloader.unlock_bits=0x3F
-avrpi16.bootloader.lock_bits=0x0F
+avrpi328_12.bootloader.low_fuses=0xE7
+avrpi328_12.bootloader.high_fuses=0xDA
+avrpi328_12.bootloader.extended_fuses=0x07
+avrpi328_12.bootloader.path=atmega
+avrpi328_12.bootloader.file=ATmegaBOOT_168_atmega328.hex
+avrpi328_12.bootloader.unlock_bits=0x3F
+avrpi328_12.bootloader.lock_bits=0x0F
 
-avrpi16.build.mcu=atmega328p
-avrpi16.build.f_cpu=16000000L
-avrpi16.build.core=arduino
-avrpi16.build.variant=standard
+avrpi328_12.build.mcu=atmega328p
+avrpi328_12.build.f_cpu=12000000L
+avrpi328_12.build.core=arduino
+avrpi328_12.build.variant=standard
 
 ##############################################################
 
-avrpi32u4.name=AVRPi-32U4 ATmega32U4 @ 8MHz
+avrpi328_16.name=AVRPi-328 ATmega328p @ 16MHz
 
-avrpi32u4.upload.using=linuxgpio
-avrpi32u4.upload.protocol=linuxgpio
-avrpi32u4.upload.maximum_size=32768
-avrpi32u4.upload.speed=57600
-avrpi32u4.upload.disable_flushing=true
+avrpi328_16.upload.using=linuxgpio
+avrpi328_16.upload.protocol=linuxgpio
+avrpi328_16.upload.maximum_size=32768
+avrpi328_16.upload.speed=57600
+avrpi328_16.upload.disable_flushing=true
 
-avrpi32u4.bootloader.low_fuses=0xff
-avrpi32u4.bootloader.high_fuses=0xd8
-avrpi32u4.bootloader.extended_fuses=0xcb
-avrpi32u4.bootloader.path=caterina
-avrpi32u4.bootloader.file=Caterina-Leonardo.hex
-avrpi32u4.bootloader.unlock_bits=0x3F
-avrpi32u4.bootloader.lock_bits=0x2F
+avrpi328_16.bootloader.low_fuses=0xE7
+avrpi328_16.bootloader.high_fuses=0xDA
+avrpi328_16.bootloader.extended_fuses=0x07
+avrpi328_16.bootloader.path=atmega
+avrpi328_16.bootloader.file=ATmegaBOOT_168_atmega328.hex
+avrpi328_16.bootloader.unlock_bits=0x3F
+avrpi328_16.bootloader.lock_bits=0x0F
 
-avrpi32u4.build.mcu=atmega32u4
-avrpi32u4.build.f_cpu=8000000L
-avrpi32u4.build.vid=0x2341
-avrpi32u4.build.pid=0x8036
-avrpi32u4.build.core=arduino
-avrpi32u4.build.variant=leonardo
+avrpi328_16.build.mcu=atmega328p
+avrpi328_16.build.f_cpu=16000000L
+avrpi328_16.build.core=arduino
+avrpi328_16.build.variant=standard
+
+##############################################################
+
+avrpi32u4_8.name=AVRPi-32U4 ATmega32U4 @ 8MHz
+
+avrpi32u4_8.upload.using=linuxgpio
+avrpi32u4_8.upload.protocol=linuxgpio
+avrpi32u4_8.upload.maximum_size=32768
+avrpi32u4_8.upload.speed=57600
+avrpi32u4_8.upload.disable_flushing=true
+
+avrpi32u4_8.bootloader.low_fuses=0xff
+avrpi32u4_8.bootloader.high_fuses=0xd8
+avrpi32u4_8.bootloader.extended_fuses=0xcb
+avrpi32u4_8.bootloader.path=caterina
+avrpi32u4_8.bootloader.file=Caterina-Leonardo.hex
+avrpi32u4_8.bootloader.unlock_bits=0x3F
+avrpi32u4_8.bootloader.lock_bits=0x2F
+
+avrpi32u4_8.build.mcu=atmega32u4
+avrpi32u4_8.build.f_cpu=8000000L
+avrpi32u4_8.build.vid=0x2341
+avrpi32u4_8.build.pid=0x8036
+avrpi32u4_8.build.core=arduino
+avrpi32u4_8.build.variant=leonardo
 
 ##############################################################
 
