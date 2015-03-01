@@ -20,7 +20,7 @@ Then clone this 'arduino-linuxgpio' repository and run 'patch_arduino.sh':
 
 Finally install avrdude from the [avrdude-linuxgpio](https://github.com/onandoffables/avrdude-linuxgpio) repository. Follow the instructions in the README.md:
 
-	sudo apt-get install libusb-1.0-0-dev libusb-dev libftdi-dev libftdi1 autoconf bison flex
+	sudo apt-get install libusb-1.0-0-dev libftdi-dev autoconf bison flex
 	git clone https://github.com/onandoffables/avrdude-linuxgpio
 	cd avrdude-linuxgpio
 	./install_avrdude.sh
