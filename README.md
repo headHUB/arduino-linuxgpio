@@ -1,7 +1,9 @@
 arduino-linuxgpio
 =================
 
-This repository has patches to the Arduino IDE that enable the use of [avrdude-linuxgpio](https://github.com/onandoffables/avrdude-linuxgpio). It also adds the possibility to use USB HID enabled ATmel devices running on 8MHz.
+This repository has patches to the Arduino IDE that enable the use of [avrdude-linuxgpio](https://github.com/onandoffables/avrdude-linuxgpio). It also adds the possibility to use USB HID enabled AVR devices running on 8MHz.
+
+Another repository: [avrpi-tools](https://github.com/onandoffables/avrpi-tools) installs everything described below from a single menu. That contains a pre-compiled avrdude binary as well.
 
 Usage
 -----

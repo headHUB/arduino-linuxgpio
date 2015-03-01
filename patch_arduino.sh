@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "## patching Arduino IDE and library..."
+
 # check if Arduino IDE is installed
 if [ ! -f /usr/share/arduino/hardware/arduino/programmers.txt ]; then
 	echo "Arduino IDE probably not installed. Please install that first."
@@ -16,7 +18,7 @@ sudo mv /usr/share/arduino/hardware/arduino/boards.txt /usr/share/arduino/hardwa
 sudo cp patches/boards.txt '/usr/share/arduino/hardware/arduino'
 
 echo "copy USBCore.cpp"
-sudo mv /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.bak
+#sudo mv /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.bak
 sudo cp patches/USBCore.cpp '/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp'
 
 
