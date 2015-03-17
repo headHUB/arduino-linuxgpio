@@ -94,6 +94,31 @@ avrpi32u4_8.build.variant=leonardo
 
 ##############################################################
 
+avrpi32u4_8cat.name=AVRPi-32U4 ATmega32U4 @ 8MHz Caterina Bootloader
+
+avrpi32u4_8cat.upload.using=linuxgpio
+avrpi32u4_8cat.upload.protocol=avr109
+avrpi32u4_8cat.upload.maximum_size=28672
+avrpi32u4_8cat.upload.speed=57600
+avrpi32u4_8cat.upload.disable_flushing=true
+
+avrpi32u4_8cat.bootloader.low_fuses=0xff
+avrpi32u4_8cat.bootloader.high_fuses=0xd8
+avrpi32u4_8cat.bootloader.extended_fuses=0xcb
+avrpi32u4_8cat.bootloader.path=caterina
+avrpi32u4_8cat.bootloader.file=Caterina-Leonardo.hex
+avrpi32u4_8cat.bootloader.unlock_bits=0x3F
+avrpi32u4_8cat.bootloader.lock_bits=0x2F
+
+avrpi32u4_8cat.build.mcu=atmega32u4
+avrpi32u4_8cat.build.f_cpu=8000000L
+avrpi32u4_8cat.build.vid=0x2341
+avrpi32u4_8cat.build.pid=0x8036
+avrpi32u4_8cat.build.core=arduino
+avrpi32u4_8cat.build.variant=leonardo
+
+##############################################################
+
 gert328.name=Gertboard with ATmega328 @ 12MHz
 
 gert328.upload.using=linuxgpio
