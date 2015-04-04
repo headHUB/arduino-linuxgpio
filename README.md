@@ -30,6 +30,7 @@ The following boards are currently supported:
 	- AVRPi-328 with ATmega328 @ 12 MHz
 	- AVRPi-328 with ATmega328 @ 16 MHz
 	- AVRPi-32U4 with ATmega32U4 @ 8 MHz
+	- AVRPi-32U4 with ATmega32U4 @ 8 MHz caterina bootloader
 	- Gertboard with ATmega168 @ 12 MHz
 	- Gertboard with ATmega328 @ 12 MHz
 	- Gertduino with ATmega48 @ 8 MHz max.
