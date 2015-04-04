@@ -20,26 +20,22 @@ Then clone this 'arduino-linuxgpio' repository and run 'patch_arduino.sh':
 	cd arduino-linuxgpio
 	./patch_arduino.sh
 
-Finally install avrdude from the [avrdude-linuxgpio](https://github.com/onandoffables/avrdude-linuxgpio) repository. Follow the instructions in the README.md:
-
-	sudo apt-get install libusb-1.0-0-dev libftdi-dev autoconf bison flex
-	git clone https://github.com/onandoffables/avrdude-linuxgpio
-	cd avrdude-linuxgpio
-	./install_avrdude.sh
+Finally install avrdude from the [avrdude-linuxgpio](https://github.com/onandoffables/avrdude-linuxgpio) repository.
 
 You should now be able to start the Arduino IDE and choose 'Tools' -> 'Programmer' -> 'Linux GPIO / RasPi' as the programmer, and the board you have attached to the Raspberry Pi GPIO pins with 'Tools' -> 'Board' --> '[your board]'. Upload your sketch with 'File' -> 'Upload Using Programmer'.
 
 The following boards are currently supported:
 
-	- AVRPi-328 @ 8 MHz
-	- AVRPi-328 @ 12 MHz
-	- AVRPi-328 @ 16 MHz
-	- AVRPi-32U4 @ 8 MHz
-	- Gertboard with ATmega168
-	- Gertboard with ATmega328
-	- Gertduino with ATmega44
-	- Gertduino with ATmega168
-	- Gertduino with ATmega328
+	- AVRPi-328 with ATmega328 @ 8 MHz
+	- AVRPi-328 with ATmega328 @ 12 MHz
+	- AVRPi-328 with ATmega328 @ 16 MHz
+	- AVRPi-32U4 with ATmega32U4 @ 8 MHz
+	- Gertboard with ATmega168 @ 12 MHz
+	- Gertboard with ATmega328 @ 12 MHz
+	- Gertduino with ATmega48 @ 8 MHz max.
+	- Gertduino with ATmega168 @ 16 MHz
+	- Gertduino with ATmega328 @ 16 MHz
+	- RasPiO Duino with ATmega328 @ 12 MHz
 	- [all standard arduino boards]
 
 If you feel you're missing a board here, feel free to clone this repository and send a pull request or open a github issue with board details. I'm more than happy to add support for your board if it can be added non-destructively.
